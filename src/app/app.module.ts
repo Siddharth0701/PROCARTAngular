@@ -1,4 +1,6 @@
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,10 +19,14 @@ import { FilterPipe } from './shared/filter.pipe';
     HeaderComponent,
     ProductsComponent,
     FilterPipe
-  ],
+ ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
