@@ -18,6 +18,7 @@ export class HeaderComponent implements OnInit {
       this.totalItem = res.length;
     })
   }
+  
   search(event:any){
     this.searchTerm = (event.target as HTMLInputElement).value;
     console.log(this.searchTerm);

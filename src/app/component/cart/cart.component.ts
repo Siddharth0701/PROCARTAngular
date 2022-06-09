@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from 'src/app/service/cart.service';
-
+const db = require("serverside/database/db")
 @Component({
   selector: 'app-cart',
   templateUrl: './cart.component.html',
@@ -18,6 +18,7 @@ export class CartComponent implements OnInit {
       this.products = res;
       this.grandTotal = this.cartService.getTotalPrice();
     })
+    
   }
   removeItem(item: any){
     this.cartService.removeCartItem(item);

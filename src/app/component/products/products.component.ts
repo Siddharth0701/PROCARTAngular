@@ -34,6 +34,7 @@ export class ProductsComponent implements OnInit {
   }
   addtocart(item: any){
     this.cartService.addtoCart(item);
+   // console.log(item.price,item.id)
   }
   filter(category:string){
     this.filterCategory = this.productList

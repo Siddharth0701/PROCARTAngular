@@ -18,7 +18,12 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
     "rxjs": "~7.5.0",
+    "sequelize": "^6.20.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
@@ -34,5 +39,18 @@
     "karma-jasmine": "~5.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.7.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.",
+  "main": "databasepg.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddharth0701/PROCARTAngular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siddharth0701/PROCARTAngular/issues"
+  },
+  "homepage": "https://github.com/Siddharth0701/PROCARTAngular#readme"
 }
